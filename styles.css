@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    background-image: url(assets/Fundo.jpg);
+    padding: auto;
+}
+header div{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 32px;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+}
+header div img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+main{
+    display: grid;
+    row-gap: 32px;
+    /* 
+    /*border: 1px solid #5CC2E2;*/
+}
+
+section div{
+    background-color: #262629;
+    border-radius: 8px;
+    height: 294px;
+    padding: 32px;   
+}
+section{
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    padding-top: 7px;
+    border-radius: 9px;
+    width: 552px;  
+    height: calc(294px +32px);
+    
+}
+section ul{
+    display: flex;
+    gap: 16px;
+}
+section li{
+    border-radius: 8px;
+    border: 1px solid #555555;
+    
+}
+.cards{
+    color: #ffffff;
+
+}
+li img{
+    width: 120px;
+    height: 150px;
+}
