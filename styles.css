@@ -5,61 +5,70 @@
 }
 body *{
     font-family: 'Montserrat', sans-serif;
+    border: 1px solid #5CC2E2;
 }
 body{
     
     background-color: #121214;
-    
+    background-size: 100% auto;
     background-image: url(assets/Fundo.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     margin: 63px;
+}
+header{
+    margin-bottom: 32px;
 }
 header div{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     padding: 6px;
-    margin: 32px;
+    margin: auto;
     display: flex;
     background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
 }
 header div img{
-    width: 120px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 main{
     display: grid;
     gap: 32px;
-    
+    align-items: center;
     color: #ffffff;
-    /* 
-    /*border: 1px solid #5CC2E2;*/
-}
-
-section div{
-    background-color: #262629;
-    border-radius: 8px;
-    height: 294px;
-    padding: 32px;   
-}
-.social li{
-    width: 552px;  
-    height: 176px;
+    margin: 32px auto;
+    width: 100%;
+    max-width: 520px;
 }
 section{
     background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
     padding-top: 7px;
     border-radius: 9px;
-    width: 552px;  
+    width: 520px;  
     height: calc(294px +32px);
-    
+}
+section div{
+    background-color: #262629;
+    border-radius: 8px;
+    width: 100%;
+    height: 294px;
+    padding: 32px;  
+    display: grid;
+    padding-top: 24px;
 }
 section ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    align-items: center;
 }
+.social {
+    width: 522px;  
+    height: 176px;
+}
+
 section li{
     list-style: none;
 }
@@ -67,17 +76,21 @@ section li img{
     border-radius: 8px;
 }
 .movies_list img{
-    width: 100px;  
-    height: 150px;
+    width: 88px;  
+    height: 130px;
     border: 1px solid #555555;
 }
 .series_list img{
-    width: 100px;  
-    height: 150px;
+    width: 88px;  
+    height: 130px;
     border: 1px solid #555555;
 }
-.social_list img{
-    
+section h1{
+    letter-spacing: -0.47px;
 }
+section p{
+    letter-spacing: -0.18px;
+}  
+
 
 
