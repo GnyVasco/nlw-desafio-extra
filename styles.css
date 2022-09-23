@@ -1,12 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body *{
+    font-family: 'Montserrat', sans-serif;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #000000;
+    
+    background-color: #121214;
+    
     background-image: url(assets/Fundo.jpg);
-    padding: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 63px;
 }
 header div{
     width: 120px;
@@ -14,6 +21,7 @@ header div{
     border-radius: 50%;
     padding: 6px;
     margin: 32px;
+    display: flex;
     background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
 }
 header div img{
@@ -23,7 +31,9 @@ header div img{
 }
 main{
     display: grid;
-    row-gap: 32px;
+    gap: 32px;
+    
+    color: #ffffff;
     /* 
     /*border: 1px solid #5CC2E2;*/
 }
@@ -33,6 +43,10 @@ section div{
     border-radius: 8px;
     height: 294px;
     padding: 32px;   
+}
+.social li{
+    width: 552px;  
+    height: 176px;
 }
 section{
     background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
@@ -44,18 +58,26 @@ section{
 }
 section ul{
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 section li{
+    list-style: none;
+}
+section li img{
     border-radius: 8px;
+}
+.movies_list img{
+    width: 100px;  
+    height: 150px;
     border: 1px solid #555555;
+}
+.series_list img{
+    width: 100px;  
+    height: 150px;
+    border: 1px solid #555555;
+}
+.social_list img{
     
 }
-.cards{
-    color: #ffffff;
 
-}
-li img{
-    width: 120px;
-    height: 150px;
-}
+
